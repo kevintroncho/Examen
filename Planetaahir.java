@@ -1,4 +1,4 @@
-public class Planeta 
+public class Planetaahir 
 {
     //inicialitzem les variables nom diametre i que seran els atributs dels objectes
     String nom;
@@ -13,7 +13,7 @@ public class Planeta
      * @param diametre
      * @param pes
      */
-    public Planeta(String nom, int diametre, int pes)
+    public Planetaahir(String nom, int diametre, int pes)
     {
         this.nom = nom;
         this.diametre = diametre;
@@ -22,7 +22,7 @@ public class Planeta
 
     //Constructor sense atributs serveix per a crear instancies dels objectes sense cap atribut (no sabem per a que)
     //Contructor buit
-    public Planeta(){}
+    public Planetaahir(){}
 
     //La clase planetaEnano el que fa es que si quan s'executa la funcio amb algun dels objectes i el 
     //seu diametre es menor que 1300 retorna 1 i si es major que 1300 retorna 0

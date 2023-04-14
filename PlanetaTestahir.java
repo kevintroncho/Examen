@@ -4,12 +4,12 @@ import org.junit.Test;
 import static org.junit.Assert.assertEquals;
 import static org.junit.Assert.assertNotEquals;
 
-public class PlanetaTest {  
+public class PlanetaTestahir {  
     //crearem els objectes amb 3 atributs segons el que diu el constructor de l'altra pg
-    Planeta terra = new Planeta("Terra", 1500, 3000);
-    Planeta marte = new Planeta("Marte", 1200, 3000);
-    Planeta jupiter = new Planeta("Jupiter", 1200, 3000);
-    Planeta pluto =new Planeta("Pluto", 1200, 1900);
+    Planetaahir terra = new Planetaahir("Terra", 1500, 3000);
+    Planetaahir marte = new Planetaahir("Marte", 1200, 3000);
+    Planetaahir jupiter = new Planetaahir("Jupiter", 1200, 3000);
+    Planetaahir pluto =new Planetaahir("Pluto", 1200, 1900);
 
     //funcio de planeta enano el que fa es que en quan un planeta executa aquesta funcio es compara el
     // valor del diametre del planeta que ha iniciat la funcio i guarda el valor del return en una nova
